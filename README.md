@@ -8,16 +8,16 @@ The dataset used in this project contains information on default payments, demog
 # Data Features
 The dataset consists of 25 variables, including:
 
-ID: ID of each client
-LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit)
-SEX: Gender (1=male, 2=female)
-EDUCATION: Education level (1=graduate school, 2=university, 3=high school, 4=others, 5=unknown, 6=unknown)
-MARRIAGE: Marital status (1=married, 2=single, 3=others)
-AGE: Age in years
-PAY_0 to PAY_6: Repayment status for the last six months
-BILL_AMT1 to BILL_AMT6: Amount of bill statement for the last six months (NT dollar)
-PAY_AMT1 to PAY_AMT6: Amount of previous payment for the last six months (NT dollar)
-default.payment.next.month: Default payment (1=yes, 0=no)
+ ID: ID of each client
+ LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit)
+ SEX: Gender (1=male, 2=female)
+ EDUCATION: Education level (1=graduate school, 2=university, 3=high school, 4=others, 5=unknown, 6=unknown)
+ MARRIAGE: Marital status (1=married, 2=single, 3=others)
+ AGE: Age in years
+ PAY_0 to PAY_6: Repayment status for the last six months
+ BILL_AMT1 to BILL_AMT6: Amount of bill statement for the last six months (NT dollar)
+ PAY_AMT1 to PAY_AMT6: Amount of previous payment for the last six months (NT dollar)
+ default.payment.next.month: Default payment (1=yes, 0=no)
 # Data Preprocessing
 Data Cleaning: Check for missing values and handle them appropriately. Ensure consistency in data types.
 Data Exploration: Perform exploratory data analysis (EDA) to understand data distributions and relationships between features.
@@ -29,4 +29,4 @@ Feature Scaling: Scale the numeric features to ensure they have the same impact 
 Model Training: Train the selected model on the training data.
 Model Evaluation: Evaluate the model's performance using appropriate metrics such as accuracy, precision, recall, F1-score, and ROC-AUC on the testing data.
 # Conclusion
-The Credit Card Default Prediction project involved data preprocessing, model building, and deployment of a machine learning model to predict credit card default
+The Credit Card Default Prediction project involved data preprocessing, model building, and deployment of a machine learning model to predict credit card default.
